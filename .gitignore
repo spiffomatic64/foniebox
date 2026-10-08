@@ -1,0 +1,48 @@
+# Gradle and Kotlin caches and generated build output
+.gradle/
+.kotlin/
+**/build/
+
+# Machine-specific SDK and IDE settings
+local.properties
+.idea/
+.vscode/
+*.iml
+
+# Built applications, logs, and memory dumps
+*.apk
+*.aab
+*.ap_
+*.dex
+*.class
+*.log
+*.hprof
+
+# Credentials, signing material, and local environment settings
+.env
+.env.*
+*.keystore
+*.jks
+*.p12
+*.pfx
+*.pem
+*.key
+key.properties
+keystore.properties
+signing.properties
+credentials.properties
+secrets.properties
+credentials.json
+*-credentials.json
+service-account*.json
+google-services.json
+
+# Local agent and cloud configuration
+.agents/
+.codex/
+.aws/
+
+# Operating system files
+.DS_Store
+Thumbs.db
+desktop.ini
